@@ -19,4 +19,7 @@ npm i address-element-vue
 ## 发布
 + npm发布的时候只发布了dist
 
+# 源码地址 
+[gitHub地址](https://github.com/yangshuanlin/address-element-vue.git)
+# 其他
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
