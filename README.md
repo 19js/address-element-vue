@@ -8,6 +8,7 @@
 npm i address-element-vue
 ```
 ## 使用
++ 在main.js
 ``` bash
     import Address from "address"
     <Address :order-address="orderAddress"></Address>
@@ -18,7 +19,14 @@ npm i address-element-vue
 ````
 ## 发布
 + npm发布的时候只发布了dist
-
+## mysql数据库
+位于mysql 文件下面
+##　修改数据源
+src/assets/address.json
+更换以后重新打包
+```$xslt
+    npm run dist
+```
 # 源码地址 
 [gitHub地址](https://github.com/yangshuanlin/address-element-vue.git)
 # 其他
