@@ -15,10 +15,7 @@
     import 'element-ui/lib/theme-chalk/index.css'
     import addressList from "../assets/address"
     export default {
-        name: "Address",
-        components:{
-
-        },
+        name: "addressSelect",
         data(){
             return {
                 options: addressList.data,

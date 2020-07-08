@@ -1,6 +1,6 @@
 {
-  "name": "address-element-vue",
-  "version": "1.0.7",
+  "name": "address-element-vues",
+  "version": "1.1.0",
   "description": "基于elementUi的vue 省市区三级联动组件 ，返回省市id与名称，可以清除所有，可以搜索",
   "author": "yangshuanlin",
   "private": false,
@@ -66,6 +66,8 @@
   "keywords": [
     "vue",
     "element-ui",
-    "省市区三级联动"
+    "省市区三级联动",
+    "address",
+    "可以修改数据库"
   ]
 }

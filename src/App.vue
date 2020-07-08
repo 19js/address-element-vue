@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <Address :order-address="orderAddress"></Address>
+    <address-select :order-address="orderAddress"></address-select>
     <button @click="sure">确定</button>
   </div>
 </template>
 
 <script>
-
+ import {Address} from './index'
 export default {
   name: 'App',
     data(){
@@ -20,6 +20,7 @@ export default {
       }
   },
   components: {
+       addressSelect: Address
   },
     created(){
     }

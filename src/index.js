@@ -10,3 +10,4 @@ if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(comment)
 }
 export default comment
+export { Address }

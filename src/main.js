@@ -3,8 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 Vue.config.productionTip = false
-import Address from './index'
-Vue.use(Address)
+import addressSelect from './index'
+Vue.use(addressSelect)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
