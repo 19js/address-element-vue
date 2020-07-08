@@ -4,7 +4,7 @@
   "description": "基于elementUi的vue 省市区三级联动组件 ，返回省市id与名称，可以清除所有，可以搜索",
   "author": "yangshuanlin",
   "private": false,
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
